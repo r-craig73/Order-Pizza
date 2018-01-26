@@ -3,12 +3,7 @@
 #### Version 1.01 by Ron Craig
 
 ## Description
-### A website where a customer can order pizza and view the final cost.
-
-## Setup/Installation Requirements
-* _User will place a pizza order_
-* _User will select pizza size and items (pepperoni, mushrooms, green peppers, etc._
-* _User will view the final cost_
+### A website where a customer can order pizza, select toppings, and view the final cost.
 
 ## Specifications
 
@@ -23,6 +18,12 @@
 ### User presses 'Place Order' for final cost
 #### Input: Presses 'Place Order button'.
 #### Output: Your medium, pizza with mushrooms, sausage, and green peppers will cost $12.50
+
+## Specifications, table format
+|Behavior                     | Input Example                  | Output Example |
+|The program will handle:     |                                |                |
+| -----------                 | ------------                   | ------------   |
+| Customer's pizza size       |  Please select pizza size      | Medium         |
 
 ## Known Bugs
 _None at the moment_
@@ -39,4 +40,4 @@ _{Using HTML, JavaScript, jQuery, and bootstrap}_
 
 *{MIT License}*
 
-Copyright (c) 2018 **_{RonC works}_**
+Copyright (c) 2018 **_{RonC productions}_**
