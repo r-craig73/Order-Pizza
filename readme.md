@@ -25,7 +25,7 @@
 
 ### JavaScript logic side: use a submit function to collect pizza size and toppings
 
-### JavaScript logic side and CSS: show the results in a hidden results <div> section 
+### JavaScript logic side and CSS: show the results in a hidden results <div> section
 
 ## Specifications, table format (not working)
 
@@ -49,4 +49,4 @@ _Using HTML, JavaScript, jQuery, and bootstrap_
 
 *MIT License*
 
-Copyright (c) 2018 **_{RonC productions}_**
+Copyright (c) 2018 **_RonC productions_**

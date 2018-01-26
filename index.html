@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
@@ -11,20 +11,55 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Pizza-R-Us Order Form</h1>
+        <h1>Pizza-R-Us Order Pizza Form</h1>
       </div>
-      <p>Please select your pizza size and toppings below.</p>
+      <h2>Personalize your pizza size and toppings below.</h2>
       <br>
-      <div class="row">
+      <form id="order">
+        <div class="row">
+
         <div class="col-sm-4">
-          <h3>Pizza Size</h3>
-        
+          <h3>Pizza Size: select one</h3>
+            <div class="radio">
+              <label>
+                <input type="radio" name="pizza" value="Small" checked>
+                Small, 12-inch diameter
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="pizza" value="Medium">
+                Medium, 16-inch diameter
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="pizza" value="Large">
+                Large, 18-inch diameter
+              </label>
+            </div>
         </div>
         <div class="col-sm-8">
-          <h3>Mmmmmm Topping!</h3>
-
+          <h3>Mmmmmm Toppings!</h3>
+          <ol>
+            <li>Tomato Sauce</li>
+            <li>Cheese</li>
+            <li>Pepperoni</li>
+            <li>Green Peppers</li>
+          </ol>
         </div>
       </div>
+
+        <br>
+        <h4>Press the "Place Order!" button to complete your order.</h4>
+        <button class="btn btn-warning">Place Order!</button>
+      </form>
+        <br>
+        <div id="results">
+          <h3>Your order:</h3>
+          <br>
+          <span class="selections"></span>
+        </div>
 
     </div>
 
