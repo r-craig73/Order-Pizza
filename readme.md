@@ -20,6 +20,7 @@
 #### Output: Your medium, pizza with mushrooms, sausage, and green peppers will cost $12.50
 
 ## Specifications, table format
+
 |Behavior                     | Input Example                  | Output Example |
 |The program will handle:     |                                |                |
 | -----------                 | ------------                   | ------------   |
