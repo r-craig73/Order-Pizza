@@ -21,8 +21,9 @@ $(document).ready(function(){
     var pizza1 = new Pizza(size, toppings);
 
 
-    $("#results").show();
-    $("#selections").show();
+    $("#results").fadeIn();
+    $("#results").append(sample + " pizza with the following topings...");
+
     //pizza1.toppings(toppings);
   });
 });
